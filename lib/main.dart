@@ -14,4 +14,11 @@ void main(){
       print("${list2[index]} you have got 5gb internet for free");
     }
 
+
+    String ? hasib90="65";
+    print(hasib90.runtimeType);
+
+    int ? hasib8= int.parse(hasib90);
+    print(hasib8.runtimeType);
+
 }
