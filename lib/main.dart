@@ -8,4 +8,10 @@ void main(){
     print("$list2 your current balance is very low now");
   }
   
+
+    List <String> list2=["01845674567","01845678765","0182437876","01844567876"];
+    for (int index =0 ; index< list2.length; index++){
+      print("${list2[index]} you have got 5gb internet for free");
+    }
+
 }
